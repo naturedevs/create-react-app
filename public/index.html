@@ -35,7 +35,7 @@
                            FB.api('/me', {fields: 'name, email'}, function(response) {
                                document.getElementById("profile").innerHTML = "Good to see you, " + response.name + ". i see your email address is " + response.email
                            });
-                      } else { 
+                      } else {  
                            console.log('User cancelled login or did not fully authorize.'); } 
             });
         };
