@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import FacebookLoginComponent from './FacebookLoginComponent';
+// import FacebookLoginComponent from './FacebookLoginComponent';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
 9
        
 10
-        <FacebookLoginComponent />
+        {/* <FacebookLoginComponent /> */}
 11
  
 12
