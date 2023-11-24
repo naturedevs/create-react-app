@@ -13,7 +13,6 @@ function App() {
     appId="318221891163640"
     autoLoad={true}
     fields="name,email,picture"
-    onClick={componentClicked}
     callback={responseFacebook} />
 
         {/* <FacebookLoginComponent /> */}
