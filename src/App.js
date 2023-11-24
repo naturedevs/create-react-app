@@ -1,11 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import FacebookLoginComponent from './FacebookLoginComponent';
 
 function App() {
   return (
-    <div className="App">
-      This is the project for testing.
+    <div>
+9
+       
+10
+        <FacebookLoginComponent />
+11
+ 
+12
     </div>
+
   );
 }
 
