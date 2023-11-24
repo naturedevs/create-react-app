@@ -11,10 +11,21 @@ function App() {
 
 <FacebookLogin
     appId="318221891163640"
-    autoLoad={true}
-    redirectUri="localhost:3000"
-    fields="name,email,picture"
-    callback={responseFacebook} />
+    onSuccess={(res)=>{
+      console.log("login success");
+      console.log(res);
+    }} 
+    onFail = {(res)=>{      
+      console.log("login fail");
+      console.log(res);
+    }
+  }
+  onProfileSuccess={(res)=>{
+    console.log("onProfileSuccess success");
+    console.log(res);
+  }
+}
+    />
 
         {/* <FacebookLoginComponent /> */}
 
