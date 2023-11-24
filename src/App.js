@@ -12,7 +12,7 @@ function App() {
 <FacebookLogin
     appId="318221891163640"
     autoLoad={true}
-    redirectUri="https://create-react-app-iota-jet.vercel.app/"
+    redirectUri="localhost:3000"
     fields="name,email,picture"
     callback={responseFacebook} />
 
