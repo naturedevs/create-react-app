@@ -10,10 +10,10 @@ function App() {
         <div>
 
             <FacebookLogin
-                appId="274043938971436"
+                appId="318221891163640"
                 fields="name,email"
                 callback={responseFacebook}
-              /> {/* <FacebookLoginComponent /> */}
+              /> 
 
         </div>
 
